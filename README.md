@@ -11,3 +11,6 @@
 2018-7-13 日 | 完成网络框架封装 和 主界面搭建
 2018-7-14 日 | 完成首页功能  组内成员1完成
 2018-7-14 日 | 完成用户管理模块 组内成员2完成
+
+# 开发完成了见证效果
+![第一张图](https://github.com/SixGroupss/weiying/blob/master/screenshot/1.png)
