@@ -3,6 +3,15 @@
 # 开发环境
   1. 操作系统 Windows 10
   2. 开发工具 Android Studio 3.1.2
+# 需求
+
+# 技术选型
+    1. Retrofit
+    2. RxJava
+    3. Okhttp
+    4. MVP
+    5. Fresco
+    6. Glide
 
 # 任务安排
 日期 | 内容
