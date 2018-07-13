@@ -26,7 +26,7 @@ public abstract class BaseActivity<P extends BasePresenter> extends AppCompatAct
         initData();
     }
 
-    //zzzzzzzzzzzz
+
     private void initBaseView() {
         BasePresenter=setPresenter();
         if(BasePresenter!=null){
