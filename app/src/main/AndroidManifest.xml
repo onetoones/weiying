@@ -19,7 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Activity.ParticularsActivity" />
         <activity android:name=".Activity.MarvellousActivity"></activity>
+        <activity android:name=".Activity.WelfareActivity"></activity>
     </application>
 
 </manifest>

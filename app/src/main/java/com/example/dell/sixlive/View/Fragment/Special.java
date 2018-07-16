@@ -6,22 +6,20 @@ import android.os.Handler;
 import android.support.annotation.RequiresApi;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 import com.example.dell.sixlive.Adater.SpecialAdapter;
 import com.example.dell.sixlive.Bean.ChoicenessBean;
+import com.example.dell.sixlive.Bean.LoadurlBean;
+import com.example.dell.sixlive.Bean.WelfareBean;
 import com.example.dell.sixlive.Persenter.SpecialPresenter;
 import com.example.dell.sixlive.R;
 import com.example.dell.sixlive.View.IView;
 import com.example.dell.sixlive.rewrite.GridSpacingItemDecoration;
 
 import java.util.List;
-import java.util.Random;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
 /**
@@ -106,6 +104,36 @@ public class Special extends BaseHot<SpecialPresenter> implements IView {
 
     @Override
     public void fail(String s) {
+
+    }
+
+    @Override
+    public void chenggong(ChoicenessBean bean) {
+
+    }
+
+    @Override
+    public void shibai(String msg) {
+
+    }
+
+    @Override
+    public void chenggongurl(LoadurlBean bean) {
+
+    }
+
+    @Override
+    public void shibaiurl(String msg) {
+
+    }
+
+    @Override
+    public void chenggongwelf(WelfareBean bean) {
+
+    }
+
+    @Override
+    public void shibaiwelf(String msg) {
 
     }
 

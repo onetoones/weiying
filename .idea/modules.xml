@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SixLive.iml" filepath="$PROJECT_DIR$/SixLive.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weiying.iml" filepath="$PROJECT_DIR$/weiying.iml" />
     </modules>
   </component>
 </project>

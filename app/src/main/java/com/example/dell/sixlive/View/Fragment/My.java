@@ -3,6 +3,8 @@ package com.example.dell.sixlive.View.Fragment;
 import android.view.View;
 
 import com.example.dell.sixlive.Bean.ChoicenessBean;
+import com.example.dell.sixlive.Bean.LoadurlBean;
+import com.example.dell.sixlive.Bean.WelfareBean;
 import com.example.dell.sixlive.Persenter.BeijingPersenter;
 import com.example.dell.sixlive.R;
 import com.example.dell.sixlive.View.IView;
@@ -44,6 +46,36 @@ public class My extends  BaseHot<BeijingPersenter> implements IView {
 
     @Override
     public void fail(String s) {
+
+    }
+
+    @Override
+    public void chenggong(ChoicenessBean bean) {
+
+    }
+
+    @Override
+    public void shibai(String msg) {
+
+    }
+
+    @Override
+    public void chenggongurl(LoadurlBean bean) {
+
+    }
+
+    @Override
+    public void shibaiurl(String msg) {
+
+    }
+
+    @Override
+    public void chenggongwelf(WelfareBean bean) {
+
+    }
+
+    @Override
+    public void shibaiwelf(String msg) {
 
     }
 }

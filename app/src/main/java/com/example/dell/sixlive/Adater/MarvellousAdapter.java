@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.dell.sixlive.Activity.MainActivity;
+import com.example.dell.sixlive.Activity.ParticularsActivity;
 import com.example.dell.sixlive.Bean.ChannelBean;
 import com.example.dell.sixlive.R;
 
@@ -19,7 +19,8 @@ import java.util.List;
 public class MarvellousAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private Context context;
     private List<ChannelBean.RetBean.ListBean> list;
-
+    private String a;
+    private String information;
     public MarvellousAdapter(Context context, List<ChannelBean.RetBean.ListBean> list) {
         this.context = context;
         this.list = list;
@@ -43,15 +44,17 @@ public class MarvellousAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
         } else {
             view.tv.setText(title);
         }
- /*       view.ll.setOnClickListener(new View.OnClickListener() {
+      view.ll.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(context, MainActivity.class);
-                intent.putExtra("loadURL",list.get(position).getLoadURL());
-                intent.putExtra("names",list.get(position).getTitle());
+                Intent intent = new Intent(context, ParticularsActivity.class);
+                String loadURL = list.get(position).getLoadURL();
+                String[] split = loadURL.split("=");
+                a = split[1];
+                intent.putExtra("loadURL",a);
                 context.startActivity(intent);
             }
-        });*/
+        });
 
 
     }
